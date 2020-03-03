@@ -26,10 +26,21 @@ li{
 }
 
 
-.box{
+.div{
     display: inline-block;
-    box-sizing: border-box;
-    margin-right: 10px;
+    margin-top: 105px;
+}
+.box-one{
+    width: 420px;
+    height: 470px;
+    margin-left: 150px;
+    margin-right: 60px;
+}
+.box-two{
+    width: 420px;
+    height: 470px;
+    margin-left: 630px;
+    margin-right: 150px;
 
 }
 
