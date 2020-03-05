@@ -1,27 +1,39 @@
 
-
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: 'Playfair Display', Arial serif;
     color: #626262;
     font-size: 14px;
     line-height: 24px;
+    text-align: center;
  }
 
- 
-   .page-nav{
-       margin-left: 55px;
-       margin-right: 55px;
-       margin-top: 78px;
-       height: 100px;
-       text-align: center;
-   }
+
+ .conteiner{
+    width: 1200px;
+} 
+
+
+header{
+      padding-top: 78px;
+      padding-bottom: 105px;
+}
+
+
 .site-navigation{
-    font-size: 14px;
+    font-size: 0px;
     list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
 .site-navigation a{
-    font-size: 14px;
+    padding: 0;
+    margin: 0;
     font-weight: 300px;
     text-transform: uppercase;
     text-decoration: none;
@@ -29,41 +41,62 @@ body{
     color: #626262;
 }
 
-.blue a{
-   color: #8bcef8; 
-}
+
 li{
     display: inline-block;
-    margin-left: 52px;
-    margin-right: 52px;
-  
+    margin-right: 120px;
+    font-size: 14px;
 }
+
+.right{
+    margin-right: 0;
+}
+
+a:hover{
+    display: block;
+    color: #8bcef8;
+}
+
+
 .name article{
     font-family: 'Ubuntu', Arial;
 }
 
-.div{
-    width: 1200px;
-    margin: 0 auto;
-    text-align: center;
 
-}
 .box{
     display: inline-block;
     width: 421px;
-    height: 475px;
-    margin-top: 70px;
-    margin-bottom: 70px;
-    margin-left: 31px;
-    margin-right: 31px;
+    padding-top: 0;
+    margin-top: 0;
+    margin-bottom: 135px;
+    margin-left: 0;
+    margin-right: 62px;
     text-align: left;
 }
 
+.box .one{
+    margin-right: 0;
+}
+.img{
+    margin-bottom: 31px;
+}
 
+.name{
+    margin-bottom: 30px;
+}
+
+.title{
+    margin-bottom: 45px;
+}
+
+.text-one{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
 
 .wraper{
-    width: 13%;
-    margin:0 auto;
+    width: 165px;
+    margin-left: 470px;
     text-align: center;
 
     
@@ -71,7 +104,6 @@ li{
 
 
 input.title{
-    width: 160px;
+    width: 165px;
     height: 60px;
-
 }
