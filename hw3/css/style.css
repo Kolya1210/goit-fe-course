@@ -68,6 +68,14 @@ a:hover{
 
 
 .box{
+    font-size: 0;
+}
+
+.block:nth-child(even){
+    margin-right: 0;
+}
+
+.block{
     display: inline-block;
     width: 420px;
     padding: 0;
@@ -79,10 +87,6 @@ a:hover{
     font-size: 0;
 }
 
-
-.block{
-    margin-right: 0;
-}
 
 .img{
     font-size: 14px;
@@ -114,9 +118,8 @@ a:hover{
 
 .wraper{
     width: 165px;
-    margin-left: 470px;
-    margin-bottom: 0;
-    padding-bottom: 45;
+    margin: 0 auto;
+    padding-bottom: 45px;
     text-align: center;
     border: 10px;
 }
@@ -128,5 +131,4 @@ a:hover{
     margin-bottom: 0;
     background: transparent;
     color: #626262;
-    
 }
