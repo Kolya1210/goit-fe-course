@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body{
     font-family: 'Playfair Display', Arial serif;
     color: #626262;
@@ -96,6 +97,7 @@ a:hover{
 .name{
     font-size: 14px;
     margin-bottom: 30px;
+    
 }
 
 .title{
