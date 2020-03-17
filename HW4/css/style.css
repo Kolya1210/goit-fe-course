@@ -1,10 +1,9 @@
 
 /* шапка страници */
 
-.conteiner{
+.container{
     width: 1110px;
     margin: 0 auto;
-    text-align: center;
 }
 
 .page-header {
@@ -40,16 +39,13 @@
 }
 
 .site-navigation{
-    display: block;
     font-family: Open Sans, bold;
     margin: 0;
-    padding: 10px 0;
     color: #0f0101;
     font-size: 14px;
     text-transform: uppercase;
     float: right;
     list-style: none;
-    width: 475px;
 }
 
 .site-navigation li{
@@ -65,6 +61,7 @@ li:last-child{
 }
 
 .site-navigation a{
+    display: block;
     color: #0f0101;
     font-size: 14px;
     line-height: 11px;
@@ -73,7 +70,6 @@ li:last-child{
 
 .menu a:hover,
 .menu a:focus{
-    display: block;
     color: #1abc9c;
 }
 
@@ -96,6 +92,7 @@ h2::after{
     display: block;
     padding: 0;
     margin: 0 auto;
+    margin-top: 28px;
     width: 165px;
     height: 7px;
     background-color: #1abc9c;
@@ -112,9 +109,9 @@ h2::after{
     width: 1110px;
 }
 
-.section{
+/* .section{
     padding-top: ;
-}
+} */
 .products{
     font-size: 0;
     list-style: none;
@@ -221,6 +218,7 @@ li:last-child{
 
 h3{
     font-family: 'Open Sans';
+    margin: 0;
     margin-bottom: 28px;
     font-size: 18px;
     line-height: 26px;
@@ -241,6 +239,7 @@ h3::after{
 
 .lists p{
     font-family: 'Open Sans';
+    margin: 0;
     font-size: 14px;
     line-height: 26px;
     margin-bottom: 16px;
