@@ -210,10 +210,11 @@ li:last-child{
     margin: 0;
     padding: 0;
     font-size: 0px;
+    line-height: 28px;
     float: left;
     margin-right: 30px;
     width: 350px;
-    text-align: left;
+    text-align: center;
 }
 
 h3{
@@ -257,7 +258,7 @@ h3::after{
 
 .input{
     box-sizing: border-box;
-    padding: 20px 40px;
+    padding: 0;
     width: 160px;
     height: 50px;
     background-color: #4ec6ab;
