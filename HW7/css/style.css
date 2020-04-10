@@ -10,7 +10,7 @@
     margin: 0 auto;
     padding: 0;
     padding-top: 40px;
-    padding-bottom: 126px;
+    margin-bottom: 126px;
     font-size: 0;
     background-color: #ffffff;
 }
@@ -71,13 +71,13 @@
     width: 940px;
     margin: 0 auto;
     padding: 0;
-    padding-bottom: 124px;
+    margin-bottom: 124px;
     font-size: 0;
     background-color: #ffffff;
 }
 
 h2{
-    padding-bottom: 176px;
+    
     display: block;
     font-size: 40px;
     line-height: 70px;
@@ -89,6 +89,7 @@ h2{
 }
 
 .subtitle{
+    margin-bottom: 176px; 
     padding-top: 20px;
     display: block;
     text-align: center;
@@ -172,13 +173,13 @@ h2{
     margin: 0 auto;
     padding: 0;
     padding-top: 110px;
-    padding-bottom: 115px;
+    margin-bottom: 115px;
     background-image: url('../image/backgraund.png');
 }
 
 .title{
     color: #ffffff;
-    padding-bottom: 76px;
+    /* margin-bottom: 76px; */
 }
 
 .form{
