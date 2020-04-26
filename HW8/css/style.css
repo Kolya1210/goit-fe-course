@@ -1,0 +1,203 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+/*************
+****HEADER****
+*************/
+.header{
+    margin: 0 auto;
+    padding-top: 30px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.page-header{
+    display: flex; 
+    justify-content: center;
+    list-style: none;
+    
+}   
+.singlink{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 1.2;
+}
+.list-menu:not(:last-child){
+    margin-right: 14px;
+}
+.list-menu{
+    padding: 10px;
+    white-space: nowrap;
+}
+.list-menu:last-child{
+    border: 3px solid #ffffff;
+    border-radius: 20px;
+}
+
+/************
+****MAINE****
+****PART1***/
+.wrap{
+  margin: 0 auto;
+  padding-top: 116px;
+  padding-left: 10px;
+  padding-right: 10px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+  width: 100%;
+  max-width: 1440px;
+  height: auto;
+  min-height: 540px;  
+  background: url(../background/background.png) center center no-repeat;
+  background-color: rgb(26, 25, 21);
+}
+.logotwo{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 38px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #ffffff;
+}
+.wrap-title{
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 1.2;
+}
+.wrap-text{
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: light;
+    font-size: 18px;
+    line-height: 1.2;
+}
+.wrap-button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding: 12px 30px;
+    background-color: #ff4e50;
+    border: 2px solid #ff4e50;
+    border-radius: 20px;
+    margin: 0 auto;
+    max-width: 280px;
+    font-size: 14px;
+    line-height: 1.2;
+}
+
+/*************
+****PART2*****
+*************/
+.wrapper{
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 70px;
+    text-align: center;   
+}
+.title-wrapper{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 1.2;
+    margin-bottom: 34px;
+}
+.list-partner{
+    font-size: 0;
+    list-style: none;
+}
+.icon-partner{
+    font-size: 0;
+    margin: 0;
+    width: 220px;
+    height: 210px;
+}
+
+.photo-partner{
+    border: 3px solid #ffffff;
+    border-radius: 70px;
+}
+.icon{
+    position: relative;
+    margin-bottom: 16px;
+}
+.icon::before{
+    content: '';
+    display: block;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    right: 43px;
+    bottom: 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 4px solid #ffffff;
+    border-radius: 30px;
+    
+}
+
+.icon.one::before{
+    background-image: url(../icon/icon1.png);
+    background-color: #ff4e50;
+}
+
+.icon.two::before{
+    background-image: url(../icon/icon2.png);
+    background-color: #1cd7ad;
+}
+
+.icon.three::before{
+    background-image: url(../icon/icon3.png);
+    background-color: #ffa507;
+}
+.icon.four::before{
+    background-image: url(../icon/icon4.png);
+    background-color: #4e73db;
+}
+.name-partner{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.2;
+    margin-bottom: 16px;
+}
+.info-partner{
+    font-family: 'Roboto', sans-serif;
+    font-weight: light;
+    font-size: 14px;
+    line-height: 1.2;
+}
+ 
+.wrapper-buton{
+    max-width: 284px;
+    margin: 0 auto;
+    padding: 12px 68px;
+    border: 3px solid #ff4e50;
+    border-radius: 30px;
+    color: #ff4e50;
+    background-color: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: 1.2;
+}
+
+.wrapper-buton:hover{
+    background-color: gold;
+}

@@ -1,0 +1,136 @@
+@media (max-width: 767px){
+.logo{
+    display: none;
+}
+.list-partner{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 32px;
+}
+.order1{
+    order: 1;
+}
+.order2{
+    order: 3;
+}
+.order3{
+    order: 2;
+}
+.order4{
+    order: 4;
+}
+.icon-partner:not(:last-child){
+    margin-bottom: 28px;
+} 
+.list-partner{
+    width: 320px;
+    margin: 0 auto;
+}
+.icon-partner{
+    margin: 0 auto;
+}
+
+}
+ @media (min-width:768px) and (max-width:1439px){
+    .header{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding-left: 42px;
+    padding-right: 42px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    } 
+    .logotwo{
+        display: none;
+    }
+    .logo{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 1.2;
+    color: #ffffff;
+    text-transform: uppercase;
+    }
+
+    .container{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .list-partner{
+        margin: 0 auto;
+        width: 500px;
+    }
+
+    .list-partner{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 54px;
+    }
+
+    .icon-partner:nth-child(-n+2){
+        margin-bottom: 44px;
+    }
+     .wrap-title{
+         font-size: 52px;
+         line-height: 1.2;
+     }
+     .wrap-text{
+         font-size: 24px;
+         line-height: 1.2;
+     }
+
+
+
+}
+@media (min-width:1440px){
+    .logotwo{
+        display: none;
+    }
+    .header{
+        width: 1440px;
+        height: auto;
+        margin: 0 auto;
+        padding-left: 250px;
+        padding-right: 250px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logo{
+        display: block;
+        text-decoration: none;
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 1.2;
+        color: #ffffff;
+        text-transform: uppercase;
+        }
+    .wrapper{
+        margin: 0 auto;
+        width: 940px;
+    }
+    .list-partner{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 54px;
+    } 
+    .wrap-title{
+        font-size: 52px;
+        line-height: 1.2;
+    }
+    .wrap-text{
+        font-size: 24px;
+        line-height: 1.2;
+    }
+
+    
+} 
