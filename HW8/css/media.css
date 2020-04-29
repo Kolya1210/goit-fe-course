@@ -1,6 +1,21 @@
 @media (max-width: 767px){
-.logo{
-    display: none;
+ .logo{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    text-transform: uppercase;
+} 
+.nav-header{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    align-content: space-between;
+}
+.page-header{
+    margin-bottom: 125px;
 }
 .list-partner{
     display: flex;
@@ -22,7 +37,7 @@
 .icon-partner:not(:last-child){
     margin-bottom: 28px;
 } 
-.list-partner{
+.wrapper{
     width: 320px;
     margin: 0 auto;
 }
@@ -31,7 +46,7 @@
 }
 
 }
- @media (min-width:768px) and (max-width:1439px){
+ @media (min-width:768px) and (max-width:959px){
     .header{
     width: 100%;
     height: auto;
@@ -61,9 +76,12 @@
         width: 100%;
         margin: 0 auto;
     }
+    .wrapper{
+        width: 500px;
+        margin: 0 auto;
+    }
     .list-partner{
         margin: 0 auto;
-        width: 500px;
     }
 
     .list-partner{
@@ -88,16 +106,14 @@
 
 
 }
-@media (min-width:1440px){
+@media (min-width:960px){
     .logotwo{
         display: none;
     }
     .header{
-        width: 1440px;
+        width: 960px;
         height: auto;
         margin: 0 auto;
-        padding-left: 250px;
-        padding-right: 250px;
         display: flex;
         flex-direction: row;
         justify-content: space-between;

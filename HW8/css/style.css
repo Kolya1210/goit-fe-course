@@ -37,7 +37,7 @@
     padding: 10px;
     white-space: nowrap;
 }
-.list-menu:last-child{
+.list-menu:last-child:hover{
     border: 3px solid #ffffff;
     border-radius: 20px;
 }
@@ -62,7 +62,7 @@
   background: url(../background/background.png) center center no-repeat;
   background-color: rgb(26, 25, 21);
 }
-.logotwo{
+/* .logotwo{
     display: block;
     text-decoration: none;
     margin-bottom: 38px;
@@ -72,7 +72,7 @@
     font-size: 20px;
     line-height: 1.2;
     color: #ffffff;
-}
+} */
 .wrap-title{
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -126,7 +126,7 @@
     font-size: 0;
     margin: 0;
     width: 220px;
-    height: 210px;
+    height: auto;
 }
 
 .photo-partner{
