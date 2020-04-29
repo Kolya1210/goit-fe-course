@@ -1,4 +1,8 @@
 @media (max-width: 767px){
+    .header{
+        width: 320px;
+    }
+   
  .logo{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -8,11 +12,11 @@
     text-transform: uppercase;
 } 
 .nav-header{
-    margin: 0 auto;
+    margin: 0 auto; 
     display: flex;
     flex-direction: row-reverse;
     flex-wrap: wrap-reverse;
-    align-content: space-between;
+    justify-content: center;
 }
 .page-header{
     margin-bottom: 125px;
@@ -48,15 +52,17 @@
 }
  @media (min-width:768px) and (max-width:959px){
     .header{
-    width: 100%;
+    width: 768px;
     height: auto;
     margin: 0 auto;
     padding-left: 42px;
     padding-right: 42px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     } 
+    .nav-header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
     .logotwo{
         display: none;
     }
@@ -114,6 +120,8 @@
         width: 960px;
         height: auto;
         margin: 0 auto;
+    }
+    .nav-header{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
