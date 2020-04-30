@@ -37,10 +37,11 @@
 .list-menu{
     padding: 10px;
     white-space: nowrap;
-}
-.list-menu:last-child:hover{
-    border: 3px solid #ffffff;
+    border: 3px solid transparent;
     border-radius: 20px;
+}
+.list-menu:hover{
+    border-color: #ffffff;
 }
 
 /************
