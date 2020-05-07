@@ -188,8 +188,7 @@ text-transform: uppercase;
 /******************
 ******СЕКЦИЯ 2*****
 ******************/
-.part2__tittle,
-.part3__tittle{
+.section__tittle{
 margin: 0 auto;
 margin-bottom: 126px;
 font-size: 30px;
@@ -200,13 +199,12 @@ text-align: center;
 text-transform: uppercase;
 color: #333333;
 }
-.part2__text,
-.part3__text{
+.section__tittle--cursive{
 font-family: 'Kaushan Script', Roboto, Arial;
 font-size: 24px;
 line-height: 1.2;
 }
-.part2__tittle::after{
+.section__tittle::after{
 display: block;
 padding: 0;
 margin: 0 auto;
@@ -217,7 +215,7 @@ background-color: #f38181;
 content: '';
 }
 
-.part2__icon{
+.services__icon{
 position: relative;
 margin: 0;
 margin-bottom: 98px;
@@ -245,15 +243,15 @@ font-family: Roboto, Arial;
 font-weight: 400;
 }
 
-.part2__icon:nth-child(n+3){
+.services__icon:nth-child(n+3){
 margin-bottom: 0;
 }
 
-.part2__icon:nth-child(3n){
+.services__icon:nth-child(3n){
 margin-right: 0;
 }
 
-.part2__icon h3{
+.services__icon h3{
 margin: 0;
 padding: 0;
 margin-bottom: 16px; 
@@ -265,7 +263,7 @@ line-height: 16px;
 color: #5a5a5a;
 }
 
-.part2__icon--position{
+.services__icon--content{
 margin: 0;
 padding: 0;
 font-size: 15px;
@@ -275,7 +273,7 @@ font-family: Roboto, Arial;
 font-weight: 400;
 }
 
-.part2__icon::before{
+.services__icon::before{
 content: '';
 display: block;
 width: 32px;
@@ -285,42 +283,42 @@ left: 0;
 top: 0; 
 }
 
-.part2__icon.a::before{
+.services__icon.icon1::before{
 background-image: url('../icons/icon1.svg');
 }
-.part2__icon.b::before{
+.services__icon.icon2::before{
 background-image: url('../icons/icon2.svg');
 }
-.part2__icon.c::before{
+.services__icon.icon3::before{
 background-image: url('../icons/icon3.svg');
 }
-.part2__icon.d::before{
+.services__icon.icon4::before{
 background-image: url('../icons/icon4.svg');
 }
-.part2__icon.e::before{
+.services__icon.icon5::before{
 background-image: url('../icons/icon5.svg');
 }
-.part2__icon.f::before{
+.services__icon.icon6::before{
 background-image: url('../icons/icon6.svg');
 }
 
 /******************
 ******СЕКЦИЯ 3*****
 ******************/
-.part3{
+.team{
 width: 1200px;
 margin: 0 auto;
 margin-bottom: 100px;
 font-size: 0; 
 }
-.part3 ul{
+.team ul{
 padding: 0;
 }
 
-.part3__title{
+.section__tittle{
 margin-bottom: 42px;
 }
-.part3__tittle::after{
+.section__tittle::after{
 display: block;
 padding: 0;
 margin: 0 auto;
@@ -331,7 +329,7 @@ background-color: #f38181;
 content: '';
 } 
 
-.part3__sub--title{
+.section--content{
 width: 950px;
 margin: 0 auto;
 margin-bottom: 30px;
@@ -344,12 +342,11 @@ font-weight: 400;
 color: #b6b6b6;
 }
 
-.part3__icon-team{
+.section__icon-team{
 width: 380px;
 height: 545px;
 margin: 0;
 margin-right: 30px;
-
 padding: 0;
 display: -webkit-inline-box;
 display: -ms-inline-flexbox;
@@ -360,11 +357,11 @@ display: inline-flex;
         flex-direction: row;
 }
 
-.part3__icon-team:last-child{
+.section__icon-team:last-child{
 margin-right: 0;
 }
 
-.part3__icon-team{
+.section__icon-team{
 position: relative;
 display: -webkit-inline-box;
 display: -ms-inline-flexbox;
@@ -375,11 +372,11 @@ display: inline-flex;
         flex-direction: column;
 }
 
-.part3__icon-team--images{
+.section__icon-team--images{
 margin-bottom: 30px;
 }
 
-.part3__icon-team:hover .part3__icon-team--sub-menu{
+.section__icon-team:hover .part3__icon-team--sub-menu{
 -webkit-transform: translate(-10px, -10px);
     -ms-transform: translate(-10px, -10px);
         transform: translate(-10px, -10px);
@@ -388,7 +385,7 @@ margin-bottom: 30px;
 transition: 0.2s ease-in;
 }
 
-.part3__icon-team:hover .part3__icon-team--images{
+.section__icon-team:hover .part3__icon-team--images{
 -webkit-transform: translate(-10px, -10px);
     -ms-transform: translate(-10px, -10px);
         transform: translate(-10px, -10px); 
@@ -397,7 +394,7 @@ transition: 0.2s ease-in;
 transition: 0.2s ease-in;  
 }
 
-.part3__icon-team--sub-menu{
+.section__icon-team--sub-menu{
 position: absolute;
 top: 0;
 left: 0;
@@ -405,7 +402,7 @@ width: 100%;
 height: 470px;
 }
 
-.part3__icon-team--sub-menu:hover{
+.section__icon-team--sub-menu:hover{
 background: -webkit-gradient( linear, left bottom, left top, from(rgba(252,227,138, 0.9)), to(rgba(243,129,129, 0.9)));
 background: -o-linear-gradient( bottom, rgba(252,227,138, 0.9) 0%, rgba(243,129,129, 0.9) 100%);
 background: linear-gradient( to top, rgba(252,227,138, 0.9) 0%, rgba(243,129,129, 0.9) 100%);
@@ -415,11 +412,11 @@ height: 470px;
         box-shadow: 10px 10px 0px #95e1d3;
 }
 
-.part3__icon-team--social-item{
+.section__icon-team--social-item{
 list-style-type: none;
 }
 
-.part3__icon-team--social-lists{
+.section__icon-team--social-lists{
 display: -webkit-box;
 display: -ms-flexbox;
 display: flex;
@@ -452,7 +449,7 @@ display: flex;
     -ms-flex-align: center;
         align-items: center;   
 }
-.part3__icon-team--sub-menu:hover .social-item__item{
+.section__icon-team--sub-menu:hover .social-item__item{
 opacity: 1;  
 }
 .social-item__item:hover{
@@ -493,7 +490,7 @@ background-repeat: no-repeat;
 background-position: center;
 fill: #f38181;
 }
-.part3__name{
+.team__name{
 font-size: 14px;
 font-family: "Montserrat";
 color: rgb(51, 51, 51);
@@ -503,7 +500,7 @@ margin: 0;
 margin-bottom: 12px;
 padding: 0;
 }
-.part3__work{
+.team__work{
 font-size: 15px;
 font-family: "Roboto";
 color: rgb(153, 153, 153);
@@ -513,7 +510,7 @@ text-align: center;
 margin: 0;
 padding: 0;
 }
-.part3__footer{
+.section__footer{
 width: 1200px;
 margin: 0 auto;
 padding: 30px 0;
@@ -525,7 +522,7 @@ display: flex;
         justify-content: space-between;
 border-top: 1px solid #e5e5e5;
 }
-.part3__footer--mail-button{
+.section__footer--mail-button{
 background-color: rgb(149, 225, 211);
 width: 150px;
 height: 44px;
@@ -536,7 +533,7 @@ color: rgb(255, 255, 255);
 text-transform: uppercase;
 text-align: center;
 }
-.part3__footer--mail-box {
+.section__footer--mail-box {
 border-style: solid;
 border-width: 1px;
 border-color: rgb(231, 231, 231);
@@ -546,12 +543,12 @@ height: 44px;
 margin-left: auto;
 font-family: "Montserrat";
 }
-.part3__footer-inform{
+.section__footer-inform{
 font-size: 14px;
 font-family: "Montserrat";
 color: rgb(51, 51, 51);
 }
-.part3__footer-inform--laaqiq{
+.section__footer-inform--laaqiq{
 display: inline-block;
 font-size: 14px;
 font-family: "Montserrat";
