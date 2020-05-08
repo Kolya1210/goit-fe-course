@@ -263,7 +263,7 @@ line-height: 16px;
 color: #5a5a5a;
 }
 
-.services__icon--content{
+.services__icon-content{
 margin: 0;
 padding: 0;
 font-size: 15px;
@@ -283,22 +283,22 @@ left: 0;
 top: 0; 
 }
 
-.services__icon.icon1::before{
+.services__icon.services__icon--icon1::before{
 background-image: url('../icons/icon1.svg');
 }
-.services__icon.icon2::before{
+.services__icon.services__icon--icon2::before{
 background-image: url('../icons/icon2.svg');
 }
-.services__icon.icon3::before{
+.services__icon.services__icon--icon3::before{
 background-image: url('../icons/icon3.svg');
 }
-.services__icon.icon4::before{
+.services__icon.services__icon--icon4::before{
 background-image: url('../icons/icon4.svg');
 }
-.services__icon.icon5::before{
+.services__icon.services__icon--icon5::before{
 background-image: url('../icons/icon5.svg');
 }
-.services__icon.icon6::before{
+.services__icon.services__icon--icon6::before{
 background-image: url('../icons/icon6.svg');
 }
 
@@ -376,7 +376,7 @@ display: inline-flex;
 margin-bottom: 30px;
 }
 
-.section__icon-team:hover .part3__icon-team--sub-menu{
+.section__icon-team:hover .section__icon-team--sub-menu{
 -webkit-transform: translate(-10px, -10px);
     -ms-transform: translate(-10px, -10px);
         transform: translate(-10px, -10px);
@@ -385,7 +385,7 @@ margin-bottom: 30px;
 transition: 0.2s ease-in;
 }
 
-.section__icon-team:hover .part3__icon-team--images{
+.section__icon-team:hover .section__team-images{
 -webkit-transform: translate(-10px, -10px);
     -ms-transform: translate(-10px, -10px);
         transform: translate(-10px, -10px); 
