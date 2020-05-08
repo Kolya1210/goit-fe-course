@@ -329,7 +329,7 @@ background-color: #f38181;
 content: '';
 } 
 
-.section--content{
+.section__content{
 width: 950px;
 margin: 0 auto;
 margin-bottom: 30px;
@@ -372,7 +372,7 @@ display: inline-flex;
         flex-direction: column;
 }
 
-.section__icon-team--images{
+.section__team-images{
 margin-bottom: 30px;
 }
 
